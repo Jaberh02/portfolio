@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.parallax{
+    /* border: 2px solid black; */
+    background-image: url("images/huntington.jpg");
+    height: -webkit-fill-available;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: none; */
+    text-align: center;
+}
+.me{
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 15%;
+    height: auto;
+    border-radius: 100%;
+}
+.shoes {
+    margin-left: 5%; 
+    width: 15%;
+    height: auto;
+    border-radius: 100%;
+}
+.heading {
+    /* border: 2px solid black; */
+    width: 60%;
+    display: inline-block;
+    margin-top: 10%;
+    /* margin-left: 450px; */
+    
+    vertical-align: top;
+}
+.name {
+    /* font-family: "Jazz LET", fantasy; */
+    /* font-family: Optima, sans-serif; */
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    display: inline-block;
+}
+
+.middle_div {
+    /* border: 2px solid black; */
+    /* background-color: #d9d9d9;  */
+    height: auto;
+
+}
+.parallax2 {
+    /* border: 2px solid black; */
+    background-image: url("images/bball2.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.node_box {
+    width: 7.8%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 3.5%;
+    display: inline-block;
+}
+#node {
+    max-width: 100%;
+    max-height: 100%;
+}
+.django_box {
+    width: 7.8%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 1.9%;
+    display: inline-block;
+}
+#django {
+    max-width: 100%;
+    max-height: 100%;
+}
+.flask_box {
+    width: 7.8%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 1.9%;
+    display: inline-block;
+}
+#flask {
+    max-width: 100%;
+    max-height: 100%;
+}
+.angular_box {
+    width: 7.8%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 1.9%;
+    display: inline-block;
+}
+#angular {
+    max-width: 100%;
+    max-height: 100%;
+}
+.html_box {
+    width: 20.5%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 1.9%;
+    display: inline-block;
+}
+#html {
+    max-width: 100%;
+    max-height: 100%;
+}
+.mongo_box {
+    width: 11%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 1.9%;
+    display: inline-block;
+}
+#mongo {
+    max-width: 100%;
+    max-height: 100%;
+}
+.cnet_box {
+    width: 7.8%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 1.9%;
+    display: inline-block;
+}
+#cnet {
+    max-width: 100%;
+    max-height: 100%;
+}
+.sharp_box {
+    width: 7.8%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 1.9%;
+    display: inline-block;
+}
+#sharp {
+    max-width: 100%;
+    max-height: 100%;
+}
+.skills {
+    /* border: 2px solid black; */
+    font-weight: bold;
+    font-family: "Apple Chancery", cursive;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    /* margin: 10px 0px 10px 0px; */
+    text-align: center;
+    color: #a73434;
+}
+
+.bio {
+    /* border: 2px solid black; */
+    font-family: "Comic Sans MS", cursive;
+    font-size: 18px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    /* margin: 0px 50px 30px 50px; */
+    color: #a73434;
+    /* Comic Sans MS, Comic Sans, cursive */
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #a73434;
+    font-family: "Apple Chancery", cursive;
+    margin-top: .5%;
+    margin-bottom: 1%;
+    /* margin: 10px 0px 30px 0px; */
+}
+.second_div a {
+    /* border: 2px solid black; */
+    margin-left: 18%;
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .parallax {
+        width: 100%;
+        height: 700px;
+        /* background-attachment: scroll; */
+        background-size: cover;
+      /* margin-left: 0px; */
+    }
+    .name {
+        font-size: 60px;
+        margin-top: 70px;
+    }
+    .node_box{
+        width: 15%;
+        margin-left: 7%;
+    }
+    .django_box{
+        width: 15%;
+        margin-left: 7%;
+    }
+    .flask_box{
+        width: 15%;
+        margin-left: 7%;
+    }
+    .angular_box{
+        width: 15%;
+        margin-left: 7%;
+    }
+    .html_box{
+        width: 35%;
+    }
+    .mongo_box{
+        width: 20%;
+    }
+    .cnet_box{
+        width: 15%;
+    }
+    .sharp_box{
+        width: 15%;
+    }
+    .me{
+        width: 35%;
+        margin-left: 10%;
+    }
+    .shoes{
+        width: 35%;
+        margin-left: 10%;
+    }
+    .second_div a{
+        margin: 0%;
+    }
+    .parallax2{
+        width: 100%;
+        background-size: cover;
+    }
+    /* .photo {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+    } */
+  };
